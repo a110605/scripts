@@ -14,7 +14,13 @@ case $options in
 	git remote add origin https://github.com/a110605/$name.git
 	git push -u origin master
 	;;
-    * ) echo "Please choose options 1 or 2";
+    2 ) read -p "Enter file name to push (. for all file in dir): " file	
+   	read -p "Enter commit for this push: " commit
+	git add $file
+	git commit -m "${commit}"
+	git push
+	;;
+   * ) echo "Please choose options 1 or 2";
         exit
     	;;
 esac
