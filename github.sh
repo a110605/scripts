@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "github.sh" >> .gitignore
+
 read -p "Choose the options to use:
 	[1] Init a project on github.
 	[2] Push files to github.
