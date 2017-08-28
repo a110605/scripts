@@ -13,8 +13,8 @@ case $options in
 	git commit -m "first commit"
 	git remote add origin https://github.com/a110605/$name.git
 	git push -u origin master
-	break;;
+	;;
     * ) echo "Please choose options 1 or 2";
-        exit;
-    	break ;;
+        exit
+    	;;
 esac
