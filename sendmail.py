@@ -9,7 +9,7 @@ info += ('\n'+u'因資訊安全，請至(http://******.nchu-cm.com/)， 登入�
   
 #寄件人的信箱，通常自己去申請個GMAIL信箱即可
 gmail_user = 'a1106052000@gmail.com'
-gmail_pwd = 'a7539511234'
+gmail_pwd = 'XXXX'
 #這是GMAIL的SMTP伺服器，如果你有找到別的可以用的也可以換掉
 smtpserver = smtplib.SMTP("smtp.gmail.com",587)
 smtpserver.ehlo()
